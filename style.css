@@ -1,0 +1,336 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.header{
+ margin-top: 0px;
+background-position:center;
+background-image:linear-gradient(rgba(75, 104, 224, 0.7),rgba(4,9,30,0.7)),url(./image/newyork.png);
+height: 100vh;
+}
+nav{
+
+display: flex;
+justify-content: space-between;
+ width: 100%;
+ 
+}
+
+
+nav{
+    align-items: center;
+
+ 
+}
+nav img{
+    width: 150px;
+    cursor: pointer;
+
+
+}
+
+.nav-links li{
+    font-size: 62px;
+    padding: 0 10px;
+    margin-top: 0;
+    display: inline-block;
+    color: white;
+    font-weight: normal;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0px;
+    height: 2px;
+    background-color: coral;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+width: 100%;
+}
+
+.text-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    color:white;
+    justify-content: center;
+    text-align: center;
+    padding: 8px 12px;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+.text-box h1{
+    font-size: 62px;
+
+
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: white;
+    padding: 8px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero-btn{
+    display:inline block;
+    position: relative;
+    text-decoration: none;
+    border: 1px solid white;
+    cursor: pointer;
+    padding: 16px 30px;
+    background: transparent;
+    color: aliceblue;
+
+}
+.hero-btn:hover{
+border: 1px solid coral;
+    background: coral;
+    transition: 0.5s;
+
+    
+}
+nav .fa{
+    display: none;
+}
+.services{
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 12px 20px;
+    background-image:radial-gradient(#fff, #9f96eb),url(./image/basketball.png);
+
+}
+    
+
+.services h1{
+    text-align: center;
+    font-size: 24px;
+    color:black;
+    cursor: pointer;
+    
+
+
+}
+.head-1{
+
+    color:white;
+
+    font-size: 62px;
+    position: relative;
+    text-align: center;
+  
+}
+.text-box2{
+    align-items: center;
+    display: inline-block;
+    border: 1px solid black;
+    width: 200px;
+    justify-content: space-between;
+    margin: 8px 12px;
+    padding: 8px 12px;
+    text-align: center;
+    color:white;
+    margin-top: 150px;
+    transition: 1s;
+    cursor: pointer;
+    background: transparent;
+    
+    
+    
+}
+.text-box2:hover{
+    transform: translate(-5px);
+}
+.row{
+    display: flex;
+    
+    text-align: center;
+    justify-content: center;
+
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    margin-top: 0px;
+background-position:center;
+background-image:linear-gradient(rgba(75, 104, 224, 0.7),rgba(4,9,30,0.7)),url(./image/background\ boy.webp);
+height: 100vh;
+
+
+    
+
+}
+.col-2{
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-basis: 50%;
+    padding: 40px;
+}
+.col-2 img{
+    transition: 1s;
+    cursor: pointer;
+
+    
+
+}
+.col-2 img:hover{
+    transform: translate(-10px);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: radial-gradient(rgb(3, 3, 3), #c03333);
+    
+
+}
+
+
+
+.footer{
+
+    padding-top: 50px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  
+  .footer--bg{
+    background-color: #052c3d;
+  }
+  
+  .footer__title{
+    font-size: 30px;
+    color: #fff;
+    font-family: Roboto-Light;
+    font-weight: bold;
+    margin-bottom: px;
+  }
+  
+  .footer__contact-information li{
+    display: inline-block;
+  }
+  
+  .footer__contact-information li a{
+    font-size: 15px;
+    color: #9ca1a3;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+  }
+  
+  .footer__contact-information .material-icons{
+    font-size: 15px;
+    padding-right: 10px;
+    position: relative;
+    top: 3px;
+  }
+  
+  .footer .social-icon{
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .footer .social-icon ul li{
+    padding-right: 20px;
+    margin-top: 50px;
+    display: inline;
+  }
+  
+  .footer__paragraph{
+    font-size: 14px;
+    color: #fff;
+    font-family: Roboto-Light;
+  
+  }
+
+@media (max-width:700px) {
+
+    .text-box h1{
+        
+        font-size: 26px;
+    }
+
+.nav-links ul li{
+    display: block;
+    margin-top: 20px;
+}
+.nav img{
+    width: 150px;
+    display: inline;
+}
+
+.nav-links{
+    display: flex;
+    position: absolute;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    background-color: red;
+    height: 100vh;
+    z-index: 2;
+    text-align: left;
+    padding: 30px;
+    transition: 1s;
+    
+    
+}
+.fa fa-times{ display: block;
+    
+
+}
+nav .fa{
+    
+    display: block;
+    margin: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    color: #fff;
+}
+.services{
+    align-items: center;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 20%;
+    margin: 0 auto;
+    padding: 12px 20px;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./image/basketball.png);
+
+
+    
+}
+.services h1{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    
+
+
+}
+.head-1{
+    font-weight: normal;
+    font-size: 62px;
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+}

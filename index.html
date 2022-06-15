@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>the appe portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="f.css">
+</head>
+<!-- Home Page -->
+  <div class="header">
+    <nav>
+      <img src="./image/APPE LOGO 3 (1).png" alt="logo" id="logo" onclick="logoChange()" width="150px">
+      <div class="nav-links" id="navLinks">
+        
+     <div>
+      <i class="fa fa-times" onclick="hideMenu()"></i>
+      <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>services</li>
+            <li>contact</li>
+          </ul>
+          
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    
+     </div>
+
+     
+    </nav>
+    <div class="text-box">
+      <h1>Africa's Biggest Animation Company</h1>
+      <p>the APPE  is the biggest company in the world, it its nonparil in its atesidence in Animation. <br> its is born out of share pasion to be the best</p>
+      <a href="#" class="hero-btn">explore more</a>
+    </div>
+  </div>
+
+  
+
+
+<!-- ABOUT US -->
+
+<section class="services">
+<div class="head-1">
+  <h1>Services we Offer</h1>
+</div>
+<div class="text-box2">
+  <h1>Services We Offer</h1>
+  <img src="./image/APPE LOGO correct 2 (1).png" width="150px" alt="">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita commodi odio quasi sequi, cumque voluptas corrupti animi exercitatione <br></p>
+</div>
+<div class="text-box2 ">
+  <h1>Services We Offer</h1>
+  <img src="./image/APPE LOGO correct 2 (1).png" width="150px" alt="logo"  >
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita commodi odio quasi sequi, cumque voluptas corrupti animi exercitatione <br></p>
+</div>
+
+<div class="text-box2">
+  <h1>Services We Offer</h1>
+  <img src="./image/APPE LOGO correct 2 (1).png" width="150px" alt="">
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita commodi odio quasi sequi, cumque voluptas corrupti animi exercitatione <br></p>
+</div>
+</section>
+
+<!-- contact -->
+<section class="contact-sec">
+
+<div class="container">
+  <div class="row">
+    <div class="col-2">
+      <div class="col-2">
+        <img src="./image/3d cartoon.jpg" width="200px" alt="user" style="border: 1px solid black; border-radius: 50%;"  >
+      </div>
+  <h1>Contact</h1>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut omnis esse 
+    vero, illo autem facere architecto eveniet deserunt debitis a fugiat expedita <br> nemo officia officiis dolores molestias, corporis quam ex!</p>
+    </div>
+    </div>
+  </div>
+</div>  
+</section>
+<body>
+  <!-- footer -------------------------------->
+  
+  <section class="footer">
+    <footer class="footer footer--bg">
+      <div class="container text-center">
+        <h1 class="footer__title">THE APPE</h1>
+        <ul class="footer__contact-information">
+          <li><a href="tel:5555555555"><i class="material-icons">phone</i> Hotline (+234) 811 922 3162</a></li>
+          <li><a href="mailto:sshariar458@gmail.com"><i class="material-icons">email</i> godwillokenyi@gmail.com</a></li>
+          <li><a href="#"><i class="material-icons">location_on</i> DartThemes address goes here.</a></li>
+        </ul>
+  
+      <hr style="border: 0;border-top: 1px solid #525B60;display:block;margin-top: 40px;">
+      <div class="container text-center">
+        <div class="social-icon">
+          <ul>
+            <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
+            <li><a href="#"><i class="flaticon-twitter-logo"></i></a></li>
+            <li><a href="#"><i class="flaticon-instagram-logo"></i></a></li>
+            <li><a href="#"><i class="flaticon-dribbble-logo"></i></a></li>
+          </ul>
+        </div>
+        <p class="footer__paragraph">Copyright &copy; 2022 , All Rights Reserved.</p>
+    
+    </footer>
+  
+  
+
+  </section>
+</body>
+
+<script>
+const navLinks= document.getElementById("navLinks")
+function showMenu() {
+  navLinks.style.right="0";
+  
+}
+function hideMenu() {
+  navLinks.style.right="-200px"; 
+}
+
+
+const logo = document.getElementById('logo')
+logo.style.width == '150px';
+function logoChange() {
+ if ( logo.style.width =='150px') {
+  logo.style.width == '300px';
+   
+ } else {
+  logo.style.width =='150px'; 
+ }
+  
+}
+
+</script>
+</html>
