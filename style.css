@@ -358,7 +358,15 @@ background-image:url(./image/cartoon\ train.jpg);
 
     
 
-nav .fa{
+.bi-list{
+    
+    display: block;
+    margin: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+}
+.bi-x-lg{
     
     display: block;
     margin: 12px;
