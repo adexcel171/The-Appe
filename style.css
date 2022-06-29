@@ -337,9 +337,11 @@ background-image:url(./image/cartoon\ train.jpg);
 
     .text-box h1{
         
-        font-size: 16px;
+        font-size: 24px;
     }
-
+    .text-box p{
+        font-size: 14px;
+    }
 .nav-links ul li{
     display: block;
     margin-top: 20px;
@@ -446,6 +448,9 @@ background-image:url(./image/cartoon\ train.jpg);
     font-size: 16px;
     text-align: center;
 
+}
+.head-1 h1{
+    font-size: larger;
 }
 .card-2{
     top:0;
