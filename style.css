@@ -11,7 +11,9 @@
 background-position:center;
 background-image:linear-gradient(rgba(31, 35, 49, 0.7),rgba(4,9,30,0.7)),url(./image/background\ boy.webp);
 height: 100vh;
+justify-content: space-between;
 }
+
 nav{
 
 display: flex;
@@ -68,7 +70,13 @@ nav img{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
     position: sticky;
+    text-decoration: none;
 
+
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: #fff;
 }
 .nav-links ul li::after{
     content: '';
@@ -126,11 +134,11 @@ border: 1px solid coral;
 
     
 }
-nav .fa{
+.bi-list{
     display: none;
 
 }
- .fa-bars{
+.bi-x-lg{
     display: block;
 }
 .services{
@@ -197,6 +205,9 @@ nav .fa{
     
 
 
+}
+.nav-menue{
+    text-decoration: none;
 }
 .header-card-1{
     text-align: center;
@@ -478,4 +489,3 @@ nav img{
     align-items: center;
 }
 
-}
