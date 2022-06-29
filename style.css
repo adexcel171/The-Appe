@@ -463,5 +463,11 @@ nav img{
     justify-content: center;
     padding: 10px;
 }
+.you-container{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
 
 }
