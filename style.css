@@ -408,16 +408,16 @@ background-image:url(./image/cartoon\ train.jpg);
     text-align: center;
     font-size: 16px;
 }
-/* 
+
 .bg-header{
     background-color: yellowgreen;
       width: 100%;
       display: flex;
-      justify-content: space-between; 
+      justify-content: space-evenly; 
       padding: 0 30px;
       margin: 0 5px;
       
-      font-size: 14px; */
+      font-size: 14px;
 }
 .services h1{
     justify-content: center;
@@ -464,7 +464,7 @@ background-image:url(./image/cartoon\ train.jpg);
     width: 150x;
 }
 nav img{
-    visibility: hidden;
+    
 }
 
 
