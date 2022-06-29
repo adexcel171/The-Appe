@@ -1,14 +1,15 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: 0px;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
+   
     
 }
 .header{
  margin-top: 0px;
 background-position:center;
-background-image:linear-gradient(rgba(75, 104, 224, 0.7),rgba(4,9,30,0.7)),url(./image/newyork.png);
+background-image:linear-gradient(rgba(31, 35, 49, 0.7),rgba(4,9,30,0.7)),url(./image/background\ boy.webp);
 height: 100vh;
 }
 nav{
@@ -22,19 +23,43 @@ justify-content: space-between;
 
 nav{
     align-items: center;
+    position: sticky;
 
  
 }
 nav img{
-    width: 150px;
+    width: 100px;
     cursor: pointer;
+    margin-left: 2px;
 
 
 }
 
-.nav-links li{
+  nav.sticky{
+      position: fixed;
+      top: 0;
+      left: 0; 
+      padding: 10px 8%;
+      background-color:rgba(75, 104, 224, 0.7);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: padding 1s;
+      
+  }
+  .bg-header{
+      background-color: yellowgreen;
+      width: 100%;
+      display: flex;
+      justify-content: space-between; 
+      width: 100%;
+      padding: 0 40px;
+    
+  }
+
+.nav-links ul li{
     font-size: 62px;
-    padding: 0 10px;
+    padding: 0 16px;
     margin-top: 0;
     display: inline-block;
     color: white;
@@ -42,6 +67,7 @@ nav img{
     font-size: medium;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
+    position: sticky;
 
 }
 .nav-links ul li::after{
@@ -102,6 +128,10 @@ border: 1px solid coral;
 }
 nav .fa{
     display: none;
+
+}
+ .fa-bars{
+    display: block;
 }
 .services{
     align-items: center;
@@ -111,43 +141,81 @@ nav .fa{
     height: 100vh;
     margin: 0 auto;
     padding: 12px 20px;
-    background-image:radial-gradient(#fff, #9f96eb),url(./image/basketball.png);
+    /* background-image:radial-gradient(#fff, #9f96eb),url(./image/basketball.png); */
 
 }
     
+    
+.services-2{
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 12px 20px;
+    background-image:radial-gradient(#fff, #68676e),url(./image/basketball.png);}
+
 
 .services h1{
     text-align: center;
-    font-size: 24px;
-    color:black;
+    font-size: 32px;
+    color:whitesmoke;
     cursor: pointer;
+    width: 100%;
     
 
 
 }
 .head-1{
 
-    color:white;
+    color:rgb(49, 44, 44);
 
-    font-size: 62px;
+    font-size: 24px;
     position: relative;
     text-align: center;
   
 }
+.youtube{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+    padding: 20px;
+}
+.card-2{
+    top: 0;
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    color: aliceblue;
+    background-image: url(./image/images/photoswipe/default-skin.svg);
+    
+
+
+}
+.header-card-1{
+    text-align: center;
+    font-size: 24px;
+    background-color: black;
+    color: #fff;
+}
+.text-box2 h1{
+    font-size: 24px;
+
+}
 .text-box2{
     align-items: center;
-    display: inline-block;
-    border: 1px solid black;
-    width: 200px;
-    justify-content: space-between;
-    margin: 8px 12px;
-    padding: 8px 12px;
     text-align: center;
-    color:white;
-    margin-top: 150px;
+    color:black;
+    margin-top: 50px;
     transition: 1s;
     cursor: pointer;
-    background: transparent;
+
     
     
     
@@ -156,21 +224,17 @@ nav .fa{
     transform: translate(-5px);
 }
 .row{
-    display: flex;
     
+    color: white;
     text-align: center;
-    justify-content: center;
-
     background-size: cover;
     background-position: center;
     height: 100vh;
     width: 100%;
     margin-top: 0px;
-background-position:center;
-background-image:linear-gradient(rgba(75, 104, 224, 0.7),rgba(4,9,30,0.7)),url(./image/background\ boy.webp);
-height: 100vh;
+background-image:url(./image/cartoon\ train.jpg);
 
-
+ 
     
 
 }
@@ -190,13 +254,10 @@ height: 100vh;
 .col-2 img:hover{
     transform: translate(-10px);
 }
-.container{
-    width: 100%;
-    height: 100vh;
-    background-color: radial-gradient(rgb(3, 3, 3), #c03333);
-    
 
-}
+
+
+
 
 
 
@@ -261,7 +322,7 @@ height: 100vh;
   
   }
 
-@media (max-width:700px) {
+@media (max-width:576px) {
 
     .text-box h1{
         
@@ -274,17 +335,17 @@ height: 100vh;
 }
 .nav img{
     width: 150px;
-    display: inline;
+    display: inline-block
 }
 
 .nav-links{
-    display: flex;
+    display: block;
     position: absolute;
     width: 200px;
     top: 0;
-    right: -200px;
-    background-color: red;
-    height: 100vh;
+    right:-200px ;
+    background-color: #2e2758;
+    height: 50vh;
     z-index: 2;
     text-align: left;
     padding: 30px;
@@ -292,10 +353,9 @@ height: 100vh;
     
     
 }
-.fa fa-times{ display: block;
+
     
 
-}
 nav .fa{
     
     display: block;
@@ -317,20 +377,77 @@ nav .fa{
 
     
 }
-.services h1{
-    text-align: center;
-    font-size: 24px;
-    color: white;
-    
 
 
-}
 .head-1{
     font-weight: normal;
     font-size: 62px;
     display: block;
     position: relative;
     text-align: center;
+    font-size: 14ppx;
+}
+
+.bg-header{
+    background-color: yellowgreen;
+      width: 100%;
+      display: inline-block;
+      justify-content: space-between; 
+      padding: 0 60px;
+      margin: 0 5px;
+      display: block;
+      font-size: 14px;
+}
+.services h1{
+    justify-content: center;
+    text-align: center;
+    font-size: 34px;
+    color: white;
+    align-items: center;
+    display: block;
+    
+
+}
+
+.text-box2 h1{
+    font-size: 16px;
+}
+.head-1{
+    color:white;
+
+    font-size: 16px;
+    text-align: center;
+
+}
+.card-2{
+    top:0;
+    
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    overflow: visible;
+    max-height: fit-content;
+
+
+}
+.card-2 img{
+    width: 150x;
+}
+nav img{
+    visibility: hidden;
+}
+
+
+.services-2{
+    align-items: center;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 20%;
+    margin: 0 auto;
+    padding: 12px 20px;
 }
 
 }
