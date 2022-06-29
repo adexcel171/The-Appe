@@ -326,16 +326,18 @@ background-image:url(./image/cartoon\ train.jpg);
 
     .text-box h1{
         
-        font-size: 26px;
+        font-size: 14px;
     }
 
 .nav-links ul li{
     display: block;
     margin-top: 20px;
+    font-size: 14px;
 }
 .nav img{
     width: 150px;
-    display: inline-block
+    display: block;
+    justify-content: center;
 }
 
 .nav-links{
@@ -361,7 +363,7 @@ nav .fa{
     display: block;
     margin: 12px;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 14px;
     color: #fff;
 }
 .services{
@@ -381,19 +383,19 @@ nav .fa{
 
 .head-1{
     font-weight: normal;
-    font-size: 62px;
+    font-size: 20px;
     display: block;
     position: relative;
     text-align: center;
-    font-size: 14ppx;
+    font-size: 14px;
 }
 
 .bg-header{
     background-color: yellowgreen;
       width: 100%;
-      display: inline-block;
+      display: block;
       justify-content: space-between; 
-      padding: 0 60px;
+      padding: 0 30px;
       margin: 0 5px;
       display: block;
       font-size: 14px;
@@ -401,14 +403,21 @@ nav .fa{
 .services h1{
     justify-content: center;
     text-align: center;
-    font-size: 34px;
+    font-size: 14px;
     color: white;
     align-items: center;
     display: block;
     
 
 }
+.text-box2{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
 
+}
 .text-box2 h1{
     font-size: 14px;
 }
@@ -422,13 +431,13 @@ nav .fa{
 .card-2{
     top:0;
     
-    display:inline-block;
+    display:block;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: aliceblue;
     overflow: visible;
-    max-height: fit-content;
+    height: 100%;
 
 
 }
@@ -448,6 +457,11 @@ nav img{
     height: 20%;
     margin: 0 auto;
     padding: 12px 20px;
+}
+.youtube{
+    display: block;
+    justify-content: center;
+    padding: 10px;
 }
 
 }
