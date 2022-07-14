@@ -425,7 +425,7 @@ background-image:url(./image/cartoon\ train.jpg);
     justify-content: center;
     text-align: center;
     font-size: 16px;
-    color: white;
+    color: ghostwhite;
     align-items: center;
     display: block;
     
@@ -445,8 +445,9 @@ background-image:url(./image/cartoon\ train.jpg);
 .head-1{
     color:white;
 
-    font-size: 16px;
+    font-size: 22px;
     text-align: center;
+    margin-top: 8px;
 
 }
 .head-1 h1{
@@ -481,6 +482,7 @@ nav img{
     height: 20%;
     margin: 0 auto;
     padding: 12px 20px;
+
 }
 .youtube{
     display: block;
@@ -492,5 +494,7 @@ nav img{
     justify-content: center;
     text-align: center;
     align-items: center;
+    background-color: #052c3d;
 }
 
+}
