@@ -335,6 +335,10 @@ background-image:url(./image/cartoon\ train.jpg);
 
 @media (max-width:576px) {
 
+.header{
+    width: fit-content;
+    overflow: hidden;
+}
     .text-box h1{
         
         font-size: 24px;
